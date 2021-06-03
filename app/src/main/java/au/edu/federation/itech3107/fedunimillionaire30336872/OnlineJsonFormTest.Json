@@ -1,0 +1,185 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which Greek letter represents the &quot;Half-Life&quot; logo?",
+      "correct_answer": "Lambda",
+      "incorrect_answers": [
+        "Omega",
+        "Alpha",
+        "Sigma"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "How many Chaos Emeralds can you collect in the first Sonic The Hedgehog?",
+      "correct_answer": "Six",
+      "incorrect_answers": [
+        "Seven",
+        "Five",
+        "Eight"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of these is a type of monster found in Minecraft?",
+      "correct_answer": "Skeleton",
+      "incorrect_answers": [
+        "Werewolf",
+        "Vampire",
+        "Minotaur"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed &quot;the Kingmaker&quot;?",
+      "correct_answer": "Richard Neville",
+      "incorrect_answers": [
+        "Richard III",
+        "Henry V",
+        "Thomas Warwick"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is the leader of Team Mystic in Pok&eacute;mon Go?",
+      "correct_answer": "Blanche",
+      "incorrect_answers": [
+        "Candela",
+        "Spark",
+        "Willow"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which company did Bethesda purchase the Fallout Series from?",
+      "correct_answer": "Interplay Entertainment ",
+      "incorrect_answers": [
+        "Capcom",
+        "Blizzard Entertainment",
+        "Nintendo"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these weapon classes DO NOT appear in the first Monster Hunter game?",
+      "correct_answer": "Bow ",
+      "incorrect_answers": [
+        "Hammer",
+        "Heavy Bowgun",
+        "Light Bowgun"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of the following languages does NOT use gender as a part of its grammar?",
+      "correct_answer": "Turkish",
+      "incorrect_answers": [
+        "German",
+        "Danish",
+        "Polish"
+      ]
+    },
+    {
+      "category": "Entertainment: Musicals & Theatres",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How many plays is Shakespeare generally considered to have written?",
+      "correct_answer": "37",
+      "incorrect_answers": [
+        "18",
+        "54",
+        "25"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the capital of the US State of New York?",
+      "correct_answer": "Albany",
+      "incorrect_answers": [
+        "Buffalo",
+        "New York",
+        "Rochester"
+      ]
+    },
+    {
+      "category": "Entertainment: Comics",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "When was the Garfield comic first published?",
+      "correct_answer": "1978",
+      "incorrect_answers": [
+        "1982",
+        "1973",
+        "1988"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "&quot;The Singing Cowboy&quot; Gene Autry is credited with the first recording for all but which classic Christmas jingle?",
+      "correct_answer": "White Christmas",
+      "incorrect_answers": [
+        "Frosty the Snowman",
+        "Rudolph the Red-Nosed Reindeer",
+        "Here Comes Santa Claus"
+      ]
+    },
+    {
+      "category": "Entertainment: Television",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What breed of dog is &quot;Scooby Doo&quot;?",
+      "correct_answer": "Great Dane",
+      "incorrect_answers": [
+        "Pit bull",
+        "Boxer",
+        "Doberman Pinscher"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Virtual reality company Oculus VR lost which of it&#039;s co-founders in a freak car accident in 2013?",
+      "correct_answer": "Andrew Scott Reisse",
+      "incorrect_answers": [
+        "Nate Mitchell",
+        "Jack McCauley",
+        "Palmer Luckey"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In &quot;Call Of Duty: Zombies&quot;, completing which map&#039;s easter egg will reward you with the achievement, &quot;Time Travel Will Tell&quot;?",
+      "correct_answer": "Shangri-La",
+      "incorrect_answers": [
+        "Ascension",
+        "Moon",
+        "Die Rise"
+      ]
+    }
+  ]
+}

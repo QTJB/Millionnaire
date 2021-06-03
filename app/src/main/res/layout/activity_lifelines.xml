@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lifelines">
+
+    <TextView
+        android:id="@+id/LlcurrentValue"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Current Value:"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@id/horizontal01"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/LlsafeMoney"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Safe Money: $0"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/horizontal01"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/LltextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question:"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@id/horizontal01"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="50dp"/>
+
+    <TextView
+        android:id="@+id/LlquestionNum"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="1/15"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/horizontal01"
+        app:layout_constraintStart_toStartOf="@id/LltextView"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/LlTimer"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:text="Time: 15s"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/horizontal02"
+        app:layout_constraintBottom_toTopOf="@id/horizontal03"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"/>
+
+    <Button
+        android:id="@+id/buttonhalf"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:text="50:50"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_buttom_blue"
+        app:layout_constraintTop_toBottomOf="@id/horizontal02"
+        app:layout_constraintBottom_toTopOf="@id/horizontal03"
+        app:layout_constraintEnd_toStartOf="@id/verticalMiddle"
+        android:layout_marginEnd="8dp"/>
+
+    <Button
+        android:id="@+id/buttonAudience"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:text="Audience"
+        android:textSize="9sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_buttom_blue"
+        app:layout_constraintTop_toBottomOf="@id/horizontal02"
+        app:layout_constraintBottom_toTopOf="@id/horizontal03"
+        app:layout_constraintStart_toStartOf="@id/verticalMiddle"
+        android:layout_marginStart="8dp"/>
+
+    <Button
+        android:id="@+id/buttonSwitch"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:text="Switch"
+        android:textSize="10sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn_buttom_blue"
+        app:layout_constraintTop_toBottomOf="@id/horizontal02"
+        app:layout_constraintBottom_toTopOf="@id/horizontal03"
+        app:layout_constraintStart_toEndOf="@id/buttonAudience"
+        android:layout_marginStart="16dp"/>
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/horizontal03"
+        app:layout_constraintStart_toStartOf="@id/verticalMiddle"
+        app:layout_constraintEnd_toEndOf="@id/verticalMiddle">
+
+        <TextView
+            android:id="@+id/Llquestion"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Qutstion"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </ScrollView>
+
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        app:layout_constraintBottom_toBottomOf="@id/horizontal07"
+        app:layout_constraintEnd_toEndOf="@id/verticalMiddle"
+        app:layout_constraintStart_toStartOf="@id/verticalMiddle"
+        app:layout_constraintTop_toTopOf="@id/horizontal07">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/LlanswerGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/LlradioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Answer1" />
+
+                <RadioButton
+                    android:id="@+id/LlradioButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Answer2" />
+
+                <RadioButton
+                    android:id="@+id/LlradioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Answer3" />
+
+                <RadioButton
+                    android:id="@+id/LlradioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Answer4" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+    <Button
+        android:id="@+id/Llsubmit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@id/verticalMiddle"
+        app:layout_constraintEnd_toEndOf="@id/verticalMiddle"
+        app:layout_constraintTop_toTopOf="@id/horizontal09"
+        app:layout_constraintBottom_toBottomOf="@id/horizontal09"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verticalMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontal03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
