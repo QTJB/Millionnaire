@@ -1,15 +1,7 @@
 # ITECH3107
 
-ITECH3107-Mobile Device Programming
 
-Assignment 3
 HanlinZheng
-30336872
-
-
-
-
-
 
 
 
