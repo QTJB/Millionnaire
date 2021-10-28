@@ -64,13 +64,7 @@ Sometime, question will show some symbol like: “&”, ”*”, ”^”; I chec
 
 
 3.
-I haven’t completed the function that to provide the google map. But I complete to store the location of the use by using two double value to store latitude and longitude. 
 
-(method from Youtube:
-
-https://www.youtube.com/watch?v=Ak1O9Gip-pg&t=655s&ab_channel=AndroidCodingAndroidCoding
-
-Code:
  
 
 Export the database from data/data/au.edu.fedunimillionaire30336872/database and database is like this:
